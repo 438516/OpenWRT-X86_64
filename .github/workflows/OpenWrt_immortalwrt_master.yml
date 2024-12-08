@@ -12,9 +12,9 @@ on:
   repository_dispatch:
   workflow_dispatch:
   schedule:
-  - cron: 11 23 * * * 
+    - cron: 11 23 * * * 
   watch:
-  types: started
+    types: startedd
 
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
